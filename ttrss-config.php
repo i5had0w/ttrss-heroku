@@ -23,7 +23,7 @@
 	// *** Basic settings (important!) ***
 	// ***********************************
 
-	define('SELF_URL_PATH', 'https://'.$_SERVER['SERVER_NAME'].'/');
+	define('SELF_URL_PATH', 'https://i5had0w-mix.herokuapp.com');
 	// This should be set to a fully qualified URL used to access
 	// your tt-rss instance over the net.
 	// The value should be a constant string literal. Please don't use
@@ -185,4 +185,3 @@
 	// if necessary (after migrating all new options from this file).
 
 	// vim:ft=php
-        define('_SKIP_SELF_URL_PATH_CHECKS', true);
