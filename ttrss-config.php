@@ -14,6 +14,7 @@
 	define('DB_NAME', substr($db_components['path'], 1));
 	define('DB_PASS', $db_components['pass']);
 	define('DB_PORT', $db_components['port']);
+	define('_SKIP_SELF_URL_PATH_CHECKS', true);
 
 	define('MYSQL_CHARSET', 'UTF8');
 	// Connection charset for MySQL. If you have a legacy database and/or experience
