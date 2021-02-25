@@ -14,7 +14,6 @@
 	define('DB_NAME', substr($db_components['path'], 1));
 	define('DB_PASS', $db_components['pass']);
 	define('DB_PORT', $db_components['port']);
-	define('SKIP_SELF_URL_PATH_CHECKS', true);
 
 	define('MYSQL_CHARSET', 'UTF8');
 	// Connection charset for MySQL. If you have a legacy database and/or experience
@@ -24,7 +23,7 @@
 	// *** Basic settings (important!) ***
 	// ***********************************
 
-	define('SELF_URL_PATH', 'https://i5had0w-mix.herokuapp.com/');
+	define('SELF_URL_PATH', "https://i5had0w-mix.herokuapp.com/");
 	// This should be set to a fully qualified URL used to access
 	// your tt-rss instance over the net.
 	// The value should be a constant string literal. Please don't use
